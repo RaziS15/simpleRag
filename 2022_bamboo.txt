@@ -1,0 +1,928 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/370711833
+
+Digital Bamboo: A study on bamboo, 3D printed joints, and digitally fabricated
+building components for ultralight architectures.
+Conference Paper · October 2022
+CITATIONS
+
+READS
+
+6
+
+1,257
+
+7 authors, including:
+Marirena Kladeftira
+
+Matthias Leschok
+
+Cornell University
+
+ETH Zurich
+
+15 PUBLICATIONS 46 CITATIONS
+
+26 PUBLICATIONS 305 CITATIONS
+
+SEE PROFILE
+
+SEE PROFILE
+
+Eleni Skevaki
+
+Patrick Ole Ohlbrock
+
+ETH Zurich
+
+University of Applied Sciences of Eastern Switzerland
+
+10 PUBLICATIONS 34 CITATIONS
+
+36 PUBLICATIONS 386 CITATIONS
+
+SEE PROFILE
+
+All content following this page was uploaded by Marirena Kladeftira on 02 October 2023.
+
+The user has requested enhancement of the downloaded file.
+
+SEE PROFILE
+
+Digital Bamboo
+
+Marirena Kladeftira
+Digital Building Technologies/
+ETH Zurich
+Matthias Leschok
+Digital Building Technologies/
+ETH Zurich
+
+A Study on Bamboo, 3D Printed Joints,
+and Digitally Fabricated Building
+Components for Ultralight Architectures
+
+Eleni Skevaki
+Digital Building Technologies/
+ETH Zurich
+
+Davide Tanadini
+Structural Design/ ETH Zurich
+Patrick Ole Ohlbrock
+Structural Design/ ETH Zurich
+Pierluigi D’Acunto
+Structural Design/
+Technical University of Munich
+Benjamin Dillenburger
+Digital Building Technologies/
+ETH Zurich
+
+1
+
+ABSTR ACT
+This paper presents a novel construction system that integrates natural and artificial components through the case study of the Digital Bamboo. A reversible non-standard structure is
+made of unprocessed bamboo poles connected with 3D printed joints and covered by lightweight 3D printed shading panels. The system combines multiple technologies to prefabricate
+all parts of the structure, which are controlled with a chain of computational tools.
+
+1
+
+Bamboo has gained increased attention in the construction industry due to its fast growth,
+natural tubular shape, and its ability for carbon sequestration, while it is locally available
+in different parts of the globe. However, joining bamboo becomes especially challenging
+because it is characterized by natural deviations and dissimilar mechanical characteristics
+amongst products.
+
+3
+
+In this paper, we portray how combining additive manufacturing and robotic fabrication
+methods allows the development of novel integrative systems for such non-standard materials. In parallel, we describe a computational workflow that allows the negotiation and control
+of the multiple methods applied, but also acts as an interdisciplinary collaboration platform
+between architects and engineers. The developed methods showcase the degree of agility
+that is necessary to tackle the increased complexity of such projects and are presented here
+through the development and execution of a building demonstrator.
+
+406
+
+View of the center of the pavilion
+portraying the two connecting
+systems and the attached
+shading panels
+
+2
+
+Digital Bamboo in exhibition
+at the Venice Biennale 2021
+Digital Bamboo in exhibition
+at the ZAZ Bellerive
+
+2
+
+3
+
+INTRODUCTION
+
+Bespoke Joints for Non -standard S tructures
+
+The investigation of low-embodied-carbon materials and
+carbon sinks for the production of building components is
+gaining interest as a response to the large contribution of the
+construction sector to the climate crisis. Existing research on
+the embodied carbon per unit mass of construction materials
+(Cabeza et al. 2021) pinpoints the use of biomaterials, such
+as bamboo, in order to drastically reduce the embodied CO2
+footprint of future buildings.
+
+Research on customized connections for bespoke spatial
+structures is not a novelty in architecture. Architects like B.
+Fuller (Fuller 1954), K. Wachsmann (Sumi and Burkhalter 2018),
+F. Haller and others have developed numerous typologies of
+joints during the second half of the 20th century when proprietary systems started to dominate the market as initiated by
+the Mero system (Mengeringhausen 1974). Until recent years,
+most bespoke prefabricated connections were manufactured
+by casting metal alloys in unique molds or by welding steel
+plates forming a 3-dimensional node. Systems like the Ball
+Mero Node have simplified the fabrication of such connections, however the more complex the structure, the more the
+logistics, cost and lead time increase. Additionally, although
+the system is somewhat flexible in the joint creation, its use is
+limited to compatible materials and possible configurations.
+
+Bamboo is a fast-growing natural material with a short
+harvesting cycle (Moses et al. 2015) that can sequester carbon
+dioxide throughout its life cycle. Its tubular shape and reinforcing rings along its length define the longitudinal orientation
+of its fibers that contribute to its high strength-to-weight ratio.
+This natural shape makes bamboo an excellent candidate for
+replacing energy-intensive metals in space frame construction, where loads are mainly transferred axially. However, the
+natural variability of unprocessed bamboo poles hinders their
+use with existing connection systems. Furthermore, proprietary connection systems are designed for specific materials
+like metal tubes or timber, hence the connection typology is
+primarily defined by those. In parallel, they limit the possible
+geometric configurations one can build, as their connections
+define largely the complexity and topology of structures.
+The inherent variability of unprocessed bio-materials can be
+easily embedded in connection systems that are manufactured with 3D printing technologies (3DP). Developments in
+3DP of metal alloys and high-strength thermoplastics create
+opportunities for fabricating bespoke structural connections
+in a simple supply chain. In parallel, reports indicate the wider
+adoption of additive manufacturing (AM) technologies by the
+construction industry in the near future (Wohlers et al. 2018).
+Based on these facts we can conclude that AM presents
+opportunities for manufacturing connections for standardless bio-sourced materials like bamboo.
+
+PERFORMATIVE DESIGN: STRUCTURAL AND MATERIAL SYNTHESIS
+
+There is a growing interest to harvest the flexibility of AM for
+manufacturing bespoke connections. In 2014 Arup created
+the first 3DP prototypical connector for a tensegrity structure (Galjaard et al. 2015). Subsequently, other researchers
+explored the opportunities of AM for space frames using metal
+Binder jetting (Raspall et al. 2019), as well as AM polymers
+with extrusion-based processes (Crolla et al. 2017). Although
+first investigations in the field address material reduction
+and design freedom, opportunities emerged to define new
+systems that include biomaterials like bamboo. These challenge the practices of traditional bamboo joinery developed
+over centuries in southern Asian and American regions, an
+overview of which was portrayed by Dunkelberg (Dunkelberg
+1992). In 2018 AM plastic connections were fabricated to
+perfectly fit scanned bamboo sections for a freeform canopy
+(Amtsberg and Raspall 2018). Similar research investigated
+3DP bio-composite materials for bamboo joints (Paola and
+Mercurio 2020; Wassenhove et al. 2021), while a recent study
+focused on the connection element as the geometric space
+between reciprocal bamboo poles (Qi et al. 2021).
+
+407
+
+4
+
+The three parts of the structure:
+primary, secondary truss, and
+tertiary structure
+
+5
+
+Top view of the structure and the
+axes of symmetry
+
+4
+
+Using AM to create connections for bamboo challenges the
+idea of overlapping poles seen in traditional connections,
+while it allows for more precision during built-up relying less
+in craftsmanship to deliver better results. Many joints that
+connect poles end-to-end require a chemical connection
+between the bamboo and the joint, while those that use a
+mechanical connection follow conventional mechanisms
+used for industrial materials.
+In the sections to follow we will present a new reversible connection system that was specifically developed for bamboo and
+leverages AM technologies. Furthermore, we will show how its
+function can be augmented to encapsulate more layers of the
+structure, and finally how a digital process chain can facilitate
+the development of such novel systems for local architecture.
+These findings are presented in the case study of a bespoke
+pavilion with different digitally fabricated components that are
+all part of one digital design-to-production chain.
+
+DIGITAL DESIGN AND MATERIAL SYSTEMS
+Form Finding and A natomy of the S truc ture
+
+The Digital Bamboo is a space frame that covers an area of
+40 m2 and has a mass of only 200 kg. It is composed of 930
+bamboo poles connected with 381 3DP joints. The geometry
+of the pavilion is rotationally symmetric, consisting of three
+cantilevering wings supported by three spatial columns (Figure
+2). Each of the three cantilevers further displays a reflection
+symmetry on the vertical plane that separates the part in two
+halves (Figure 5). The symmetry of the pavilion serves multiple
+purposes on the aesthetic, structural, and fabrication level.
+
+•
+•
+
+The wide-spanning cantilevering wings are formed with
+a secondary three-dimensional triangulated truss.
+The tertiary structure, which is composed of planar,
+non-load-bearing elements.
+
+Due to the limited tensile capacity of the connecting system
+described in the following section, the primary truss is
+post-tensioned with six steel ropes that are positioned along
+the reflection symmetry axes. Bamboo poles of circa 20 mm
+in diameter were chosen to create a filigree triangulated structure with high geometric stiffness.
+Connec ting S ystems
+
+The bamboo poles are joined by a novel system of bespoke
+connections that are specifically designed for AM. Most
+custom connections produced with AM are manufactured
+in metal (M3DP) or a thermoplastic material such as polylactic acid (PLA) through a layer-based extrusion process
+(FFF). However, these methods are, in our opinion, unsuitable for connecting bamboo. M3DP can be used to produce
+mechanically strong joints but excessively so compared to
+the properties of bamboo. FFF can produce lightweight parts
+which are, however, mechanically weak, anisotropic and often
+delaminate.
+
+The geometry of the pavilion is derived from an equilibrium-based form-finding process that considers the self-weight
+of the structure as the dominant load case. The spatial truss
+outlining the form is triangulated in three dimensions, forming
+polyhedral cells to define the topology of the space frame.
+The load-bearing structure is composed of three distinct parts
+(Figure 4) that interact hierarchically (Tanadini et al. 2022):
+•
+
+The primary truss consists of the main load-bearing part
+that spans from the columns to the tip of the cantilevers.
+5
+
+408
+
+Digital Bamboo Kladeftira, Leschok, Skevaki, Tanadini, Ohlbrock,
+D’Acunto, Dillenburger
+
+6
+
+7
+
+a.
+
+b.
+
+c.
+
+d.
+
+8
+
+9
+
+6
+
+Split of bamboo fibers due to excess stress: failure of the notch on the left,
+and the pin on the right
+
+7-8 The connecting system, or “notch,” between bamboo and 3D printed
+
+connection
+9
+
+a) individual definition of parts based on a parametric model that allows
+easy iterations and adjustments, b) orientation in space according to
+defined planar interfaces between parts, c) combination of all geometries
+via modification of the distance values, and d) generation of a mesh file for
+fabrication
+
+PERFORMATIVE DESIGN: STRUCTURAL AND MATERIAL SYNTHESIS
+
+409
+
+11
+
+10
+10 The core, limbs, add-on skin, caps, and assembly info are integrated
+
+into the joint
+11 The central connection connects 18 bamboo poles and 6 post-tension
+
+cables; due to structural demands, it is manufactured in steel with DMLS
+
+The species of bamboo used was unknown and therefore
+also its mechanical properties. We performed tensile tests on
+bamboo poles with a pin connection utilizing a simple testing
+station with 0.2 kN incremental loading. Based on the tests’
+results (1.4 kN), we chose to use the MultiJet Fusion (MJF)
+printing process because it delivers slightly better tensile
+strength than the bamboo. Thus, we ensure that the material
+is adequate, not over performing and does not represent the
+weakest point in the structure. The material printed is polyamide 12 (PA12) with characteristic tensile strength of 48 MPa,
+while lightweight with a specific weight of 1.01 g/cm3. MJF is a
+powder-based method that guarantees isotropic performance
+of printed parts and is used for the first time in architectural
+applications, to the best of our knowledge.
+A number of requirements made the design and development
+of the connection system specifically challenging:
+•
+
+•
+
+•
+
+410
+
+Bamboo is a natural material with variable cross-sections
+along the longitudinal axis and varying diameters among
+the different poles.
+We intended to create a fully-reversible connection between
+the nylon and the bamboo, as the structure is a temporary
+installation.
+The joints should not only fulfill their structural role in the
+space frame, but also incorporate additional elements, in
+this case, the anchorages for the post-tension cables, the
+connectors to the shading elements, and the bundling of
+multiple bamboo poles.
+
+Each 3D printed node generates a notch to evenly transfer
+stresses between the nylon and the bamboo (Figures 7, 8).
+Unlike typical pins or friction-reliant connections, the notch
+acts similar to a pin but distributes the forces over a larger
+area. Therefore, the longitudinal splitting of fibers is prevented
+(Figure 6) delivering better performance in tension than a pin
+connection. The rounded shape of the notch and the high
+tolerance between bamboo and connection, in conjunction
+with the triangulation of the structure ensures that there is
+no friction or bending in the connection. After tensile testing
+on more than 100 poles, the performance of the notch was
+determined according to the fifth percentile (1.8 kN) of the
+measured ultimate strength. The result was subsequently
+used to perform further structural analysis of the structure.
+Based on the analysis we identified the weak points, where
+a single pole is replaced by a bundle of three, adopting the
+technique as commonly used in traditional bamboo structures. The bundles highlight the force flow through the space
+frame in a continuous manner and architecturally outline the
+pavilion and the inner compression ring.
+Each joint consists of the core, the limbs, add-on features, the
+caps, and 3D printed assembly information (Figures 9, 10).
+The core is defined by a custom algorithm that analyzes the
+topology of the structure and, based on the material profiles
+specified, calculates the minimum geometric region so that
+the bamboo poles do not collide. The limbs stem from the
+core in the directions where the joint meets the bamboo.
+They feature the necessary logistic information (enumeration,
+
+Digital Bamboo Kladeftira, Leschok, Skevaki, Tanadini, Ohlbrock,
+D’Acunto, Dillenburger
+
+12
+
+13
+
+12 “Sandwich” printing approach
+13 The diaphanous 3DP shading
+
+panels follow the triangulation
+of the structure
+14 Assigned groups based on the
+
+distance of the center and the
+symmetry axes. rules are applied
+14
+
+location, etc.) for the assembly. The add-on features include
+the insertion and fastening details for the post-tensioning
+cables (7 mm channels along the axis of the cables), and the
+connections to the shading panels (threaded tubes perpendicular to the planes of the latter). The caps are standardized
+parts that surround and connect the limbs of the joint with
+the bamboo and are fastened with zip ties. The joints are
+hollow with a minimal wall thickness of 4 mm, which was
+identified to be adequate through multiple tensile tests of the
+connection system.
+Since each node is composed of several parts, the configuration of which is different for each specific location in
+the structure, the design of these parts is not trivial with
+conventional mesh-based methods (Kladeftira et al. 2021).
+To tackle this problem, we employed volumetric modeling
+as an effective method for designing complex connections.
+This approach allows for an easy and precise combination
+of 3D shapes while avoiding the arduous process of Boolean
+operations. The interface of the computational method was
+developed within the Rhino/Grasshopper environment. The
+topology of the joints was created with a custom script based
+on the COMPAS framework (Mele et al. 2021) and the geometry generation was performed with a customized workflow
+utilizing Axolotl (Bernhard and Dillenburger 2019). The computational method and detailed development of the connection
+system are fairly complex and described in depth in a dedicated companion article.
+
+PERFORMATIVE DESIGN: STRUCTURAL AND MATERIAL SYNTHESIS
+
+according to the color groups
+
+The nylon-based connection system fulfills the structural
+demands of all connections in the pavilion except for one
+special joint located in the center of the structure. This joint
+connects 18 bamboo poles and 6 post-tension cables and
+follows the same principle as the rest of the joints but it is
+fabricated in steel with Direct Metal Laser Sintering (Figure 11).
+Skin
+
+The pavilion is covered by rigid panels that provide shade. This
+shading layer follows a panelization derived from the top-layer
+triangulation of the bamboo truss (Figures 3, 13). Following the
+lightweight character of the pavilion, the 75 bespoke panels
+that cover the structure are digitally fabricated by combining
+a mesh Lycra textile and an extruded thermoplastic in a new
+process called add-on 3D printing (add-on 3DP). This process
+allows the production of ultralight panels, as the textile has
+a weight of 173 g/m2 and the 3DP plastic is applied only for
+forming/framing and stiffening in selective areas.
+The fabrication method impacts the aesthetics of the shading
+panels, as one can clearly distinguish between the textile and
+printed plastic. Therefore, the stiffening ribs are designed in
+a computational process that follows the vocabulary of the
+space grid and serves the structural integrity of the panels. We
+applied mesh grammar rules that subdivide the frame of the
+individual panels according to area, location and patterning
+schemes in the steps shown below:
+
+411
+
+The panels were printed flat and bent to an inverted catenary
+shape during assembly. The result is a three-dimensional filigree, diaphanous skin with graded porosity, which makes for
+a playful and adapted shadow pattern (Figure 13).
+
+15
+
+1. For every vertex v of the starting triangular face, create
+a new face between vertex v, the midpoints of the edges
+that are incident to v and the centroid of the face. With
+this scheme, every triangle is now split into three quads
+(Figure 14 a-b).
+2. Assign groups to the resulting quad faces based on their
+distance to the center of the structure (Figure 14c). The
+number of subdividing iterations varies for every group:
+the outermost are subdivided once, while the innermost
+are complete after 4 subdivision steps (Figure 14d).
+3. In order to reduce the wind load, introduce cut-outs
+inside the sub-triangles of the pattern, which vary in size
+and frequency depending on their position inside the
+structure (Figure 14e). In the digital environment, this
+operation is as simple as culling the last face generated
+by the termination rule.
+4. Add a connection detail to each original vertex v that
+includes a hole for a screw connection to the corresponding joint.
+
+To fabricate the panels a sequential printing process was
+developed to create a “sandwich” material system where the
+textile is placed and locked between printed layers of plastic.
+The mesh-like porous fabric is used for stronger adhesion
+between the printed layers (Figure 12), as the plastic penetrates the fabric and adheres directly to the first layers. Two
+layers of PETG are printed, the fabric is placed and more
+layers are printed on top. The first PETG layer of the upper
+part is printed with a small offset to the initial print path in
+order to avoid collisions with the textile. In order to compensate for the increased starting height, the print speed is
+reduced during the first top-layer.
+Foundation
+
+A steel plate acts as a non-invasive foundation for the pavilion.
+Its weight ensures the anchoring of the space frame to the
+ground as wind loads would cause up-lifting of the ultralight structure. Bespoke concrete footings act as transition
+elements to connect the structure to the steel plate. Any tolerance resulting from an uneven placement of the steel plates
+or from the assembly of the structure is mitigated by those.
+The design of the footings reflects the shape of the base
+connector (the lowest 3D printed connection) that joins
+together 19 bamboo poles and the post-tensioning cable. The
+post-tension cables are anchored inside the concrete feet and
+inserted before the latter are fixed to the steel base. The orientation of the cable inside the concrete is guaranteed by a 3DP
+guiding tube embedded in the concrete. The concrete feet
+are cast into a removable polymer 3DP formwork made from
+biodegradable plastic (PLA) (Figure 15). An inner cavity in the
+mold system helps to reduce material, but also provides easy
+access to anchor the post-tensioning cable inside the footing.
+
+16
+15 3DP formwork is submerged into sand for casting and after the hydration
+
+of concrete is removed by applying heat
+
+TABLE 1. Overview of the different manufacturing processes
+
+and production logistics
+
+16 The cuts needed are nested with an algorithm to make the most of the full
+
+length of the bamboo poles and marked with a collaborative robot
+17 Workflow and data flow diagram for the Digital Bamboo
+18 Assembly sequence
+
+412
+
+Digital Bamboo Kladeftira, Leschok, Skevaki, Tanadini, Ohlbrock,
+D’Acunto, Dillenburger
+
+17
+
+PRODUCTION AND ASSEMBLY LOGISTICS
+Produc tion Logistics
+
+The computational tools developed ensure a smooth design-toproduction workflow (Figure 17). The use of multiple digital
+fabrication methods to manufacture all the parts of the
+structure allows an efficient production in a short time while
+maintaining high precision. The most crucial part of the
+assembly process is the matching of joints and bamboo
+poles. The joints are equipped already in the design stage
+with a labeling system in the limbs that features the joint ID
+and the pole ID that corresponds to the specific limb. The
+system is simple and, therefore, can be assembled by anyone
+like a puzzle: starting from any one joint you match the IDs
+embedded and start growing outwards until an entire module
+is complete.
+All the nylon joints are commissioned and produced with the
+MJF technology in an external facility. Each print job takes
+approximately 9 to 12 hours to complete and about 2 hours
+to retrieve and clean the excess powder from the parts as
+show in Table 1. The production can be distributed to multiple
+printers for faster production. With each job multiple parts
+
+can be printed at a time without compromising the quality
+expediting the production for large structures.
+Overall, the production time with AM is reduced compared
+to conventional manufacturing where each joint is produced
+individually. However, the true benefit lies in the significant
+reduction of human labor and post-processing. All parts of
+the digital manufacturing chain are automated: the parts take
+into account the constraints of the AM methods (wall thickness, maximum dimensions, aspect ratio, resolution) and
+are sent to the fabrication facility nested and ready to print.
+In the remote location, where printing takes place, someone
+loads the print job and subsequently unloads the parts to the
+cleaning basket. Then, the joints are shipped to site.
+In order to efficiently cut over 900 bamboo poles in their
+respective length, reduce imprecision and avoid human errors,
+we leveraged the precision of a collaborative robot to mark
+all the poles within 10 hours. We created a robotic marking
+station consisting of a UR10, a custom table that can host
+six 3-meter-long bamboo poles and a 3D printed pen-holder
+end-effector (Figure 16). Six poles are marked simultaneously
+
+18
+
+PERFORMATIVE DESIGN: STRUCTURAL AND MATERIAL SYNTHESIS
+
+413
+
+19 The Digital Bamboo exhibited at the courtyard of the ZAZ Bellerive Museum in Zurich in 2020
+
+by the robot. In parallel, a human collaborates by labeling
+the individual elements with a serialized tag ID system. The
+bamboo is then cut at the marks using a chop saw. Two
+notches are produced on each bamboo at both ends in order
+to match the detail of the 3DP connections. For structural
+reasons a constant inner core thickness is ensured (8 mm
+after notching). The notch is not a typical connection type and
+requires minimal processing with machinery to be carved out.
+However, all notches are identical and performed at a similar
+distance to the end of the pole. Therefore, this step can easily
+be automated even with low cost machines made to carve
+wood-like materials (MacDonald et al. 2019). As the connection system is rotation-free, the orientation of the notches on
+one end does not need to align with the other end of the pole,
+as one can rotate the bamboo to find the most convenient
+orientation for assembly.
+
+that is transported as all the materials are shipped before
+any assembly takes place. On-site time is reduced as the
+larger modules are light and can be mounted very quickly.
+The second step lasts only half a day with the help of a small
+crane (Figure 18). The process is repeated vice versa for
+disassembly.
+
+RESULTS, DISCUSSION AND FUTURE WORK
+The notion of a digital design-to-production process is
+becoming increasingly relevant in architectural research and
+practice if we are to achieve a more efficient and sustainable model of construction that harvests the opportunities of
+digital fabrication. The Digital Bamboo brings forward a new
+vocabulary of space-frame structures merging innovative
+manufacturing methods with a bio-sourced material. It has
+unique aesthetics that speak of an amalgam of the digital and
+the vernacular.
+
+Discretization and On -site Assembly Sequence
+
+The assembly of the structure happens in a two-step process.
+Six distinct modules (3 columns and 3 cantilevers) are
+pre-assembled on-site. In a second step, they are mounted
+on the base with the help of a small crane. Then the structure is post-tensioned. This strategy minimizes the volume
+
+The structure shelters a space of 40 m2 with a weight of only
+5 kg/m2 . In existing buildings, material quantities typically
+range from 500 to 1500 kg/m2 (Wolf 2014). Although these
+quantities include many other layers like services and facade
+systems, they are at the lower end a hundred times heavier
+
+414
+
+Digital Bamboo Kladeftira, Leschok, Skevaki, Tanadini, Ohlbrock,
+D’Acunto, Dillenburger
+
+than the proposed system. Other researchers investigating
+lightweight building systems with bio-sourced materials
+enabled by digital fabrication have managed to reduce the
+material weight of a similar pavilion structure to a little over
+30 kg/m2 (Alvarez et al. 2020), more than six times heavier
+than Digital Bamboo. The ultralight character of the Digital
+Bamboo relies not only on the choice of bamboo but also on
+the development of the structural, connection system and the
+materiality of the connections. The ability to digitally fabricate
+all the components of the structure guarantees the minimization of excessive material use and the application of each
+material only where it is truly needed.
+The resources and fabrication time are kept to a bare
+minimum. Space frames are one of the most efficient ways
+to scale up AM by fabricating only the connections that
+comprise a small fraction of the entire structure. In parallel,
+high-embodied-carbon materials are used sparsely only
+where needed as shown with the single stainless-steel node
+and the add-on 3DP polymer to stiffen and form the textile
+panels. In fact, for the production of the whole pavilion, there
+was almost zero waste except for the three millimeter-thick
+3DP formwork shells for the concrete foundation that can be
+recycled. The cut-outs of textile and bamboo were scarce as
+the pieces needed for the pavilion were nested via an optimization algorithm ensuring almost no leftover pieces. The steel
+base underneath the structure was cut from excess material
+that would have been discarded.
+There are significant benefits to the 3DP connection system
+that was developed. All the logistic information is embedded
+in the 3DP parts, which are designed to facilitate human
+assembly. During the assembly process several people with
+no expertise or experience of the system helped intuitively in
+the build-up of the structure by matching the information on
+the different pieces like a big puzzle. As complexity increases
+in the construction industry and digital fabrication methods
+are increasingly more sophisticated, we believe that creating
+smart systems such as this one will help in their wider adoption.
+Furthermore, the system can be entirely disassembled as all
+parts are attached mechanically with non-permanent fastenings. This was an overarching principle during the development
+phase so as to ensure that the pavilion can be transported in
+minimal volume and re-assembled elsewhere but also that
+all materials can be recycled or reused at the end of life of
+the structure. The material used for the joints was chosen
+because of its strength and isotropic behavior. Alternatives
+such as bioplastics are gaining popularity, however, current
+bio-composite filaments are printable with FFF processes
+and thus do not deliver the required strength while they have
+anisotropic behavior. This would add additional constraints
+
+PERFORMATIVE DESIGN: STRUCTURAL AND MATERIAL SYNTHESIS
+
+as joints are highly three-dimensional objects and it would
+affect both the design and the fabrication of the elements.
+This project focuses on the ability to disassemble all the
+distinct materials that can therefore be treated accordingly
+at the end of life.
+We see great potential in this combinatorial scheme of multiple
+digital fabrication technologies. We believe that the future of
+architecture and construction will be shaped by the new technologies available to the point that their coexistence in future
+buildings will be seamless. In this respect, we also envision
+that the presented construction system can be enhanced by
+other technologies in the prefabrication state, like the use of
+augmented and mixed reality devices for precision and quality
+control during assembly or the use of mobile robotic units and
+UAVs in a prefabrication cell to create bespoke prefabricated
+space frame modules. These technologies can be integrated
+in the process by adding tracking and localization tags in the
+printed joints the geometry of which can be modified according
+to assembly constraints at no manufacturing expense.
+
+CONCLUSION
+This paper presented a holistic approach for the development,
+fabrication, and assembly of a novel lightweight structure that
+is entirely based on digital fabrication technologies (Figure 19).
+This is possible through interdisciplinary collaboration between
+specialized architects and structural engineers that use
+computational design and analytical tools from conception to
+realization in order to control and harvest the benefits of digital
+fabrication. The methods presented describe the design and
+rationale for all the digital layers of the structure, as well as their
+fabrication with suitable digital manufacturing methods.
+Digital Bamboo provides an insight into how we can build with
+bio-based materials without compromising precision, quality,
+and aesthetics. It showcases how one can design with uncertainties and imprecision that are inherent to standardless
+materials and use this knowledge as a driving force for innovation towards sustainable and scalable construction.
+
+ACKNOWLEDGEMENTS
+The authors acknowledge the students of the MAS DFAB ‘19-20 for
+their contribution to the initial design studies, Yael Ifrah, our collaboration partner HS HI-Tech, and our sponsors that enabled the research:
+HP Inc., SGSolution AG, AF Fercher AG, Holcim, Abuma Gmbh, and ZAZ
+Bellerive. We are thankful for the exhibition hosts ZAZ Bellerive and ECC
+Italy. The research was supported by the ETH Zurich #IPG 02-112019
+and the NCCR Digital Fabrication, funded by the Swiss National Science
+Foundation (NCCR Digital Fabrication Agreement #51NF40-141853).
+
+415
+
+NOTES
+The bamboo used for this research was left untreated against degradation because of the temporary nature of the structure. We acknowledge
+
+Mengeringhausen, Max. 1974. Process and apparatus for the
+production of connectors for space frame works or the like. US patent
+3826584a, filed January 31, 1972, issued July 30, 1974.
+
+that if used untreated for an uncovered permanent structure it might
+
+Moses, A, O Simon, and E Oke. 2015. “Comparative Analysis Of
+
+affect its longevity. In such cases additional impregnation with chemical
+
+The Tensile Strength Of Bamboo And Reinforcement Steel Bars As
+
+means or other methods that prevent degradation because of environ-
+
+Structural Member In Building Construction.” Comparative Analysis
+
+mental, external factors or insects might be appropriate.
+
+of The Tensile Strength Of Bamboo and Reinforcement Steel Bars as
+Structural Member in Building Construction 4 (10): 47–52.
+
+REFERENCES
+
+Paola, Francesco Di, and Andrea Mercurio. 2020. “Design and Digital
+
+Alvarez, Martín, Hans Jakob Wagner, Abel Groenewolt, Oliver David
+
+Fabrication of a Parametric Joint for Bamboo Sustainable Structures.”
+
+Krieg, Ondrej Kyjanek, Daniel Sonntag, Simon Bechert, Lotte Aldinger,
+
+Advances in Intelligent Systems and Computing 975: 180–89.
+
+Jan Knippers, and Achim Menges. 2020. “Buga Wood Pavilion.”
+Architecture Research Building April: 150–61.
+Amtsberg, Felix, and Felix Raspall. 2018. “BAMBOOˆ3.” In Learning,
+Adapting and Prototyping, Proceedings of the 23rd International
+Conference of the Association for Computer-Aided Architectural Design
+Research in Asia (CAADRIA) 2018. Hong Kong. 245–254.
+
+Qi, Yue, Ruqing Zhong, Benjamin Kaiser, Long Nguyen, Hans Jakob
+Wagner, Alexander Verl, and Achim Menges. 2021. “Working with
+Uncertainties: An Adaptive Fabrication Workflow for Bamboo
+Structures.” In Proceedings of the 2020 DigitalFUTURES. Singapore:
+Springer, edited by P. F. Yuan, J. Yao, C. Yan, X. Wang, and N. Leach.
+265–79. https://doi.org/10.1007/978-981-33-4400-6_25.
+
+Bernhard, Mathias, and Benjamin Dillenburger. 2019. Axolotl. https://
+
+Raspall, Felix, Carlos Banon, and Jenn Chong Tay. 2019. “AIRTABLE.
+
+www.food4rhino.com/app/axolotl.
+
+Stainless Steel Printing for Functional Space Frames.” In Computer-
+
+Cabeza, Luisa F., Laura Boquera, Marta Chàfer, and David Vérez.
+
+Aided Architectural Design Research in Asia (CAADRIA) 2019, vol. 1.
+
+2021. “Embodied Energy and Embodied Carbon of Structural Building
+
+113–122.
+
+Materials: Worldwide Progress and Barriers through Literature Map
+
+Sumi, Christian, and Marianne Burkhalter. 2018. Konrad Wachsmann
+
+Analysis.” Energy and Buildings 231: 110612.
+
+and the Grapevine Structure. Zurich: Park Books.
+
+Crolla, Kristof, Nicholas Williams, Manuel Muehlbauer, and Jane
+
+Tanadini, Davide, Patrick Ole Ohlbrock, Marirena Kladeftira, Matthias
+
+Burry. 2017. “Smartnodes Pavilion.” In Protocols, Flows and Glitches:
+22nd International Conference on Computer-Aided Architectural Design
+Research in Asia (CAADRIA). 467–76.
+
+Leschok, Eleni Skevaki, Benjamin Dillenburger, and Pierluigi D’Acunto.
+2022. “Exploring the potential of equilibrium-based methods in additive
+manufacturing: the Digital Bamboo pavilion.” In Proceedings of the IASS
+
+De Wolf, Catherine. 2014. “Material Quantities in Building Structures
+
+2022 Symposium.
+
+and Their Environmental Impact.” MSc Thesis, Massachusetts Institute
+
+Van Mele, Tom et al. COMPAS: A framework for computational research in
+
+of Technology. 92. http://dspace.mit.edu/handle/1721.1/91298.
+
+architecture and structures. V. 1.0. ETH Zurich. 2021.
+
+Dunkelberg, Klaus. 1992. IL 31, Bambus-Bamboo: Bambus Als Baustoff;
+
+Wassenhove, Romain van, Lars De Laet, and Anastasios P.
+
+Bauen Mit Pflanzlichen Stäben. Stuttgart: Krämer.
+
+Vassilopoulos. 2021. “A 3D Printed Bio-Composite Removable
+
+Fuller, Richard Buckminster. 1954. Building Construction. US Patent
+
+Connection System for Bamboo Spatial Structures.” Composite
+
+2,682,235, filed December 12, 1951, issued June 29, 1954.
+
+Structures 269 (December 2020): 114047.
+
+Galjaard, S., S. Hofman, N. Perry, and S. Ren. 2015. “Optimizing
+
+Wohlers, Terry T., Ian Campbell, Olaf Diegel, and Joseph Kowen. 2018.
+
+Structural Building Elements in Metal by using Additive Manufacturing.”
+
+“Wohlers Report 2018: 3D Printing and Additive Manufacturing State
+
+In Proceedings of the International Association for Shell and Spatial
+
+of the Industry; Annual Worldwide Progress Report.” Washington, DC:
+
+Structures (IASS) Symposium 2015, Future Visions. Amsterdam.
+
+Wohlers Associates.
+
+Kladeftira, Marirena, Matthias Leschok, Eleni Skevaki, and Benjamin
+Dillenburger. 2021. “Redefining Polyhedral Space Through 3D Printing.”
+AAG Advances in Architectural Geometry 2020: 306–29.
+MacDonald, Katie, Kyle Schumann, and Jonas Hauptman. 2019.
+
+IMAGE CREDITS
+Figure 11,13,19: ©Andrei Jipa
+All other drawings and images by the authors.
+
+“Digital Fabrication of Standardless Materials.” In ACADIA 19: Ubiquity
+and Autonomy; Paper Proceedings of the 39th Annual Conference of the
+Association for Computer Aided Design in Architecture. 266–75.
+
+416
+
+Digital Bamboo Kladeftira, Leschok, Skevaki, Tanadini, Ohlbrock,
+D’Acunto, Dillenburger
+
+Marirena Kladeftira is a Doctoral candidate at the chair of Digital
+Building Technologies, ETH Zurich and affiliated with the NCCR - Digital
+Fabrication, where she is leading the research on 3D printed joints for
+non-standard structures. She holds a Dipl. Arch. Eng. from the NTU of
+Athens and an MAS in digital fabrication from ETH Zurich.
+
+Matthias Leschok is a PhD researcher at Digital Building
+Technologies, ETH Zurich. He holds a MAS in Architecture and Digital
+Fabrication from ETH Zurich and a Dipl. Ing. in architecture from KIT.
+He is also co-founder and COO of the startup SAEKI Robotics AG.
+
+Eleni Skevaki is a Research Assistant at the chair of Digital Building
+Technologies, ETH Zurich. She studied Architecture at the NTU of
+Athens and ENSA Paris Malaquais before joining the MAS DFAB at ETH
+Zurich. She has participated in various large-scale research projects
+that employ digital fabrication for concrete and other materials.
+
+Davide Tanadini is a lecturer and PhD student at the Chair of
+Structural Design at ETH Zurich. His research focuses on applications
+of the theory of plasticity and graphic statics on timber structures and
+timber joints, and their implementation in digital fabrication and robotic
+assembly. Davide graduated from ETH Zurich as a civil engineer in
+January 2018.
+
+Patrick Ole Ohlbrock holds a degree in Civil Engineering since
+September 2013. In 2020, he obtained a PhD with distinction from ETH
+Zurich. He is currently a Postdoctoral Researcher and Lecturer at the
+Chair of Structural Design at the ETH Zurich and in parallel works as a
+consulting structural designer.
+
+Pierluigi D’Acunto graduated in Building Engineering-Architecture
+from the University of Pisa in 2007 and received a Master of
+Architecture from the AA School of Architecture in London in 2012. In
+2018, he completed his PhD with distinction at ETH Zurich. Pierluigi
+is currently Assistant Professor of Structural Design at the Technical
+University of Munich.
+
+Benjamin Dillenburger is Professor at the Institute of Technology
+in Architecture at the Department of Architecture, ETH Zurich. He is
+leading the research group Digital Building Technologies, which investigates computational design and digital fabrication with a focus on
+large scale additive manufacturing in architecture.
+
+PERFORMATIVE DESIGN: STRUCTURAL AND MATERIAL SYNTHESIS
+
+View publication stats
+
+417
+
+
